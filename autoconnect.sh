@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# Have you ever thought about sharing the BT openzone Internet inside your house without needing to enter username password all the time in the web interface? or without switching to stronger WiFis? I tried to address these issues here and make sure that the connection is secure
 # run it like this:
 # ./autoconnect.sh wlan0 test@example.com BtBroadbandPass
 # or
 # watch -n 60 ./autoconnect.sh wlan0 test@example.com BtBroadbandPass
-# You can also add your favorite VPN connection to this bash script
 
 wirelesscard=(`iw "$1" info`)
 
