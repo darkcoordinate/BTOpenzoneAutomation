@@ -3,7 +3,8 @@ Have you ever thought about sharing the BT openzone Internet inside your house w
 This will automate the process of connecting to BT Openzone for allowed users in Linux.
 You can also add your favourite VPN connection to this bash script.
 
-==usage==
+Usage:
+
 ./autoconnect.sh wlan0 test@example.com BtBroadbandPass
 
 watch -n 60 ./autoconnect.sh wlan0 test@example.com BtBroadbandPass
